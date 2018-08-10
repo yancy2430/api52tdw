@@ -1,0 +1,209 @@
+2017-12-06 10:08:15|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_basemodel' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(856): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/Model/NotORMModel.php(31): NotORM_Result->fetch()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(16): PhalApi\Model\NotORMModel->get('1')
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(15): App\Domain\EduVideo->getaaa()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 10:54:59|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems(NULL, NULL, NULL)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 10:54:59|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems(NULL, NULL, NULL)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 10:55:06|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems(NULL, NULL, NULL)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 10:55:07|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems(NULL, NULL, NULL)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 10:55:45|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 10:57:19|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 10:57:22|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 10:58:02|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 10:58:04|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 11:00:37|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 11:06:54|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_EduVideo' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 11:08:03|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_eduvideo' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 11:08:52|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_eduvideo' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 11:12:26|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_eduvideo' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 11:12:29|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_eduvideo' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 11:18:04|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_eduvideo' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 11:18:08|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_eduvideo' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(26): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(19): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-06 11:21:25|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Table 'api52tdw.pre_eduvideo' doesn't exist' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(25): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(17): App\Model\BaseModel->getListItems('', 1, 1)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}

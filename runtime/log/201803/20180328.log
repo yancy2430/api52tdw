@@ -1,0 +1,55 @@
+2018-03-28 13:10:01|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Unknown column 'Array' in 'field list'' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT Array FR...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(37): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(20): App\Model\BaseModel->getListItems(Array, '2', 15)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(36): PhalApi\PhalApi->response()
+#8 {main}
+2018-03-28 13:10:03|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Unknown column 'Array' in 'field list'' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT Array FR...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(37): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(20): App\Model\BaseModel->getListItems(Array, '2', 15)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(36): PhalApi\PhalApi->response()
+#8 {main}
+2018-03-28 13:50:16|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Unknown column 'Array' in 'field list'' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT Array FR...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(37): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(20): App\Model\BaseModel->getListItems(Array, '2', 15)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(36): PhalApi\PhalApi->response()
+#8 {main}
+2018-03-28 13:50:19|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Unknown column 'Array' in 'field list'' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT Array FR...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(37): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(20): App\Model\BaseModel->getListItems(Array, '2', 15)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(36): PhalApi\PhalApi->response()
+#8 {main}
+2018-03-28 13:50:23|ERROR|App.EduVideo.getList|exception 'PDOException' with message 'Unknown column 'Array' in 'field list'' in /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT Array FR...', Array)
+#1 /www/web/api_52tdw_com/public_html/vendor/phalapi/notorm/src/NotORM/Result.php(895): NotORM_Result->execute()
+#2 /www/web/api_52tdw_com/public_html/src/app/Model/BaseModel.php(37): NotORM_Result->fetchAll()
+#3 /www/web/api_52tdw_com/public_html/src/app/Domain/EduVideo.php(20): App\Model\BaseModel->getListItems(Array, '2', 15)
+#4 /www/web/api_52tdw_com/public_html/src/app/Api/EduVideo.php(18): App\Domain\EduVideo->getListPage()
+#5 [internal function]: App\Api\EduVideo->getList()
+#6 /www/web/api_52tdw_com/public_html/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /www/web/api_52tdw_com/public_html/public/index.php(36): PhalApi\PhalApi->response()
+#8 {main}

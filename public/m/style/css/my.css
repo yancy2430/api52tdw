@@ -1,0 +1,169 @@
+
+::-webkit-input-placeholder{color:#999;}
+input[type="text"],input[type="password"]{-webkit-appearance:none;appearance:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:0;}
+header {
+    height: 3rem;
+    background: #04abeb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: none;
+    z-index: 99;
+}
+
+header > h2 {
+    text-align: center;
+    font-size: 1rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+.myinfo:after {
+    content: " ";
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+    right: 1rem;
+    height: 1px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #e5e5e5;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    z-index: 0;
+}
+.home{
+
+}
+.home .myinfo{
+    background: #ffffff;
+    padding: 1rem 1rem;
+    height: 3.2rem;
+    display: flex;
+    position: relative;
+}
+.home .myinfo .avater{
+    width: 3.2rem;height: 3.2rem
+}
+
+.home .myinfo .avater img{
+    border-radius: 50px;
+    width: 3.2rem;height: 3.2rem
+}
+.home .user{
+    height: 3.2rem;
+    padding-left: .8rem;
+    width: -webkit-fill-available;
+}
+
+.home .sign{
+    height: 3.2rem;
+    padding-left: .8rem;
+    text-align: center;
+    margin: .4rem 0px;
+}
+
+.home .user .username {
+    font-size: .9rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+.home .user .introduce{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    color: #888;
+}
+.home .content .grid{
+    background: #ffffff;
+    display: flex;
+    padding: .5rem 0rem;
+    position: relative;
+}
+.home .content .grid a{
+    text-align: center;
+    flex: 1;
+}
+.home .content .grid a img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.home .content .grid a .placeholder{
+    font-size: .8rem;
+    color: #888;
+}
+
+.home .content .list {
+    background: #ffffff;
+}
+
+.home .content .list a{
+    width: 25%;
+    padding: .8rem 0;
+}
+
+.home .sign{
+    width: 6rem;
+    text-align: center;
+}
+.home .sign span{
+    font-size: .8rem;
+    background: #aaa;
+    border-radius: 15px;
+    padding: 0.2rem 0.6rem;
+    color: #eee;
+}
+
+.home .sign p{
+    font-size: .7rem;
+    color: #666;
+    text-align: center;
+}
+.topdivision{
+    margin-top: 1rem;
+}
+.toptitle{
+    background: #ffffff;
+    padding: .5rem 1rem;
+    position: relative;
+    font-size: .9rem;
+}
+.home  .content .order a{
+    width: 20%;
+    padding: .8rem 0;
+}
+
+.home  .content .order .weui-grid__label{
+    font-size: .8rem;
+    color: #666;
+}
+
+.home  .content a:before {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    bottom: 0;
+    border-right: 0px solid #D9D9D9;
+    color: #D9D9D9;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+}
+.home  .content a:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    border-bottom: 0px solid #D9D9D9;
+    color: #D9D9D9;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}

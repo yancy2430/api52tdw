@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/app" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phalapi/image" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phalapi/kernal" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phalapi/notorm" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phalapi/task" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phalapi/ucloud" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

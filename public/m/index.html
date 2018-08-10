@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>功能列表</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <link rel="stylesheet" href="./style/css/weui.css"/>
+    <link rel="stylesheet" href="./style/css/example.css"/>
+    <link rel="stylesheet" href="./style/css/my.css"/>
+    <script src="./style/js/jquery-2.1.1.js"></script>
+    <script src="./style/js/my.js"></script>
+</head>
+<body>
+    <div class="page__bd" style="height: 100%;">
+        <div class="weui-tab">
+            <div class="weui-tab__panel">
+                <iframe align="center" width="100%" height="100%" src="./news/index.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+            </div>
+            <div class="weui-tabbar" style="">
+                <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
+                    <span style="display: inline-block;position: relative;">
+                        <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                        <span class="weui-badge" style="position: absolute;top: -2px;right: -13px;">8</span>
+                    </span>
+                    <p class="weui-tabbar__label">首页</p>
+                </a>
+                <a href="javascript:;" class="weui-tabbar__item">
+                    <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                    <p class="weui-tabbar__label">本地</p>
+                </a>
+                <a href="javascript:;" class="weui-tabbar__item">
+                    <span style="display: inline-block;position: relative;">
+                        <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                        <span class="weui-badge weui-badge_dot" style="position: absolute;top: 0;right: -6px;"></span>
+                    </span>
+                    <p class="weui-tabbar__label">发现</p>
+                </a>
+                <a href="javascript:;" class="weui-tabbar__item">
+                    <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                    <p class="weui-tabbar__label">我的</p>
+                </a>
+            </div>
+        </div>
+    </div>
+<script>
+
+    function hideTab() {
+        $(".weui-tab__panel").css('padding-bottom','0px');
+        $(".weui-tabbar").hide();
+    }
+    function showTab() {
+        $(".weui-tab__panel").css('padding-bottom','50px');
+        $(".weui-tabbar").show();
+    }
+</script>
+</body>
+</html>

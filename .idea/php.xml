@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/.svn/tmp" />
+      <path value="$PROJECT_DIR$/vendor/phalapi/notorm" />
+      <path value="$PROJECT_DIR$/vendor/.svn/prop-base" />
+      <path value="$PROJECT_DIR$/vendor/phalapi/image" />
+      <path value="$PROJECT_DIR$/vendor/.svn/text-base" />
+      <path value="$PROJECT_DIR$/vendor/phalapi/task" />
+      <path value="$PROJECT_DIR$/vendor/.svn/props" />
+      <path value="$PROJECT_DIR$/vendor/phalapi/kernal" />
+      <path value="$PROJECT_DIR$/vendor/phalapi/.svn" />
+      <path value="$PROJECT_DIR$/vendor/phalapi/ucloud" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.3.0" />
+</project>
