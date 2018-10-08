@@ -132,7 +132,7 @@ class Lite
         $tmp_ext = $tmp_ext[count($tmp_ext) - 1];
         $this->ext = strtolower($tmp_ext);
 
-
+        $this->setFileName();
         $config = $this->config;
 
         //获取上传引擎信息

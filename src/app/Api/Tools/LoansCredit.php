@@ -3,6 +3,10 @@ namespace App\Api\Tools;
 
 use App\Api\BaseApi;
 
+/**
+ * 工具类
+ *
+ */
 class LoansCredit extends BaseApi  {
 
     public function is(){

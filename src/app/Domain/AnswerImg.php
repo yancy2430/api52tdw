@@ -3,7 +3,7 @@ namespace App\Domain;
 
 use App\Model\BaseModel as baseModel;
 
-class Answer extends baseModel{
+class AnswerImg extends baseModel{
 
 
     public function getListPage($field="*",$where = array() , $page='', $perpage='') {
@@ -20,10 +20,7 @@ class Answer extends baseModel{
         return $rs;
     }
 
-    public function addAnswer($data){
-        @$id = $this->add($data);
-        return $id['id'];
-    }
+
 
 }
-$model = new Answer();
+$model = new AnswerImg();

@@ -4,7 +4,7 @@ namespace App\Api;
 use PhalApi\Api;
 
 /**
- * 问答社区
+ * 新闻模块
  */
 class News extends BaseApi
 {

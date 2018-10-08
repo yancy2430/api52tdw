@@ -30,7 +30,18 @@ $di->logger = new FileLogger(API_ROOT . '/runtime', Logger::LOG_LEVEL_DEBUG | Lo
 // 数据操作 - 基于NotORM
 $di->notorm = new NotORMDatabase($di->config->get('dbs'), $di->debug);
 
+// 图片处理
+$di->image = function() {
+    return new \PhalApi\Image\Lite(\PhalApi\DI()->config->get('app.Image')['type'],\PhalApi\DI()->config->get('app.Image')['imgname']);
+};
+// 上传文件
+$di->ucloud = new \PhalApi\UCloud\Lite();
+
 /** ---------------- 定制注册 可选服务组件 ---------------- **/
+// 微信小程序扩展
+$di->wechatmini = function() {
+    return new \PhalApi\Wechatmini\Lite();
+};
 
 // 签名验证服务
 $di->filter = new \PhalApi\Filter\ToKenFilter();

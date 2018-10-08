@@ -2,8 +2,7 @@
 /**
  * 统一访问入口
  */
-
-error_reporting(E_ALL^E_NOTICE);
+//error_reporting(E_ALL^E_NOTICE);
 require_once dirname(__FILE__) . '/init.php';
 
 /**

@@ -19,8 +19,9 @@
         "phalapi/kernal": "2.1.*",
         "phalapi/task": "dev-master",
         "phalapi/image":"dev-master",
-        "phalapi/chanyoo_sms":"dev-master",
-        "phalapi/UCloud":"dev-master"
+        "phalapi/UCloud":"dev-master",
+        "phalapi/wechatmini":"dev-master"
+
     },
     "autoload": {
         "files": [

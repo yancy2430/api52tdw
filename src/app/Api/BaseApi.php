@@ -1,7 +1,10 @@
 <?php
 namespace App\Api;
 use PhalApi\Api;
-//use App\Domain\Tools\LoansCredit;
+
+/**
+ * 基础模块
+ */
 class BaseApi extends Api {
 
     protected $DI = null;
@@ -36,10 +39,6 @@ class BaseApi extends Api {
 
         //设置上传路径 设置方法参考3.2
         \PhalApi\DI()->ucloud->set('save_path',date('Y/m/d'));
-
-        //新增修改文件名设置上传的文件名称
-//        \PhalApi\DI()->ucloud->set('file_name', 'avatar');
-
         //上传表单名
         $rs = \PhalApi\DI()->ucloud->upfile($file,$baser64);
 

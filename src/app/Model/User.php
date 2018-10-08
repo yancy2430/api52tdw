@@ -55,9 +55,9 @@ class User extends BaseModel  {
         $userData = $user->select("*")->or("unionid",$unionid)->fetchOne();
         return $userData;
     }
-    public function regWxapp($unionid,$username){
+    public function regWxapp($unionid,$username,$avater){
         $user = $this->getORM($this->table);
-        $id = $user->insert(array('mobile'=>"0000_".time(),'unionid'=>$unionid,'username'=>$username));
+        $id = $user->insert(array('mobile'=>"0000_".time(),'unionid'=>$unionid,'username'=>$username,'avater'=>$avater));
         return $id['id'];
     }
     public function reg($mobile,$username,$password){

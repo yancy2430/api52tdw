@@ -66,12 +66,16 @@ class User extends \App\Model\User {
     /**
      * 小程序注册注册
      */
-    public function RegisterByWxApp($unionid,$username){
+    public function RegisterByWxApp($unionid,$username,$avater){
+
+
+
         if ($this->getUserInfoByName($username)){
             $username = "wx_".$username;
         }
-        if ($uid = $this->regWxapp($unionid,$username)){
+        if ($uid = $this->regWxapp($unionid,$username,$avater)){
             $this->setToken($uid);
+
             $user = $this->getUserByUnionID($unionid);
             return $user;
         }else{

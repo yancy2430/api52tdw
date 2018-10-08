@@ -26,6 +26,7 @@ return array(
      * - Site.Index  指定某个接口服务，即Api_Default::Index()
      */
     'service_whitelist' => array(
+        '*.*',
         'News.*',
         'user.getVcode',
         'user.login',
@@ -39,7 +40,12 @@ return array(
         'imgname' => null
     ),
 
-    //请将以下配置拷贝到 ./Config/app.php 文件中
+    'Wechatmini' => array(
+        'appid' => 'wxb6509d8d0e08ea0a',
+        'secret_key' => '5394e1cd8a54566114629170b14c4969',
+        'mch_id' => '1459990702',//不用支付可以不用配置
+        'mch_key' => '2SKMMHoqnleYRuASiXGCugYczD91UIRa',//不用支付可以不用配置
+    ),
 
     /**
      * 云上传引擎,支持local,oss,upyun

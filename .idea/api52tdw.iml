@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/phalapi/notorm" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phalapi/task" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phalapi/ucloud" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phalapi/wechatmini" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

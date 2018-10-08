@@ -30,7 +30,8 @@ class User extends BaseApi {
             ),
             'getUnionId'=> array(
                 'code' 	=> array('name' => 'code','require' => true),
-                'username' 	=> array('name' => 'username','require' => true)
+                'username' 	=> array('name' => 'username','require' => true),
+                'avater' 	=> array('name' => 'avater','require' => true)
             ),
         );
     }
@@ -76,18 +77,20 @@ class User extends BaseApi {
         $this->DI->sms->sendMessage($this->mobile, $code);
     }
 
-
     /**************小程序登录*****************/
     public function getUnionId(){
-        $unionid = $this->DI->wx->getUnionID($this->code);
+        $unionid = \PhalApi\DI()->wechatmini->getOpenid($this->code);
         if (isset($unionid['unionid'])){
             $us = $this->loadModel("user");
             if ($u = $us->getUserInfoByUnionID($unionid['unionid'])){
                 return $u;
             }else{
-                return $us->RegisterByWxApp($unionid['unionid'],$this->username);
+                return $us->RegisterByWxApp($unionid['unionid'],$this->username,$this->avater);
             }
         }
+    }
+
+    public function getOpenid($code){
 
 
     }

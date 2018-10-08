@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'PhalApi\\Wechatmini\\' => array($vendorDir . '/phalapi/wechatmini/src'),
     'PhalApi\\UCloud\\' => array($vendorDir . '/phalapi/ucloud/src'),
     'PhalApi\\Task\\' => array($vendorDir . '/phalapi/task/src'),
     'PhalApi\\NotORM\\' => array($vendorDir . '/phalapi/notorm/src'),

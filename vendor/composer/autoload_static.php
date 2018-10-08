@@ -15,6 +15,7 @@ class ComposerStaticInit6835957bc29912b8a4cd2dd758af2e80
     public static $prefixLengthsPsr4 = array (
         'P' => 
         array (
+            'PhalApi\\Wechatmini\\' => 19,
             'PhalApi\\UCloud\\' => 15,
             'PhalApi\\Task\\' => 13,
             'PhalApi\\NotORM\\' => 15,
@@ -28,6 +29,10 @@ class ComposerStaticInit6835957bc29912b8a4cd2dd758af2e80
     );
 
     public static $prefixDirsPsr4 = array (
+        'PhalApi\\Wechatmini\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phalapi/wechatmini/src',
+        ),
         'PhalApi\\UCloud\\' => 
         array (
             0 => __DIR__ . '/..' . '/phalapi/ucloud/src',
